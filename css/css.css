@@ -1,0 +1,38 @@
+.shtougodno {
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px black;
+
+}
+.minipig {
+    width: 250px;
+    animation: salto 2s 0s infinite;
+}
+body {
+    background-color: var(--doeowp);
+    transition: background-color 0.7s ease;
+    
+}
+.sasai {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+.fjkerk {
+    position: absolute;
+}
+@keyframes salto {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+:root[t-theme='dark'] {
+    --doeowp: black;
+}
+:root {
+    --doeowp: ffc9d8;
+}
